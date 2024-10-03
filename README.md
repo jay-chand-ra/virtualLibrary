@@ -109,3 +109,20 @@ For more details about the project structure, components, and functionality, ple
 ## Contact
 
 For any queries or suggestions, please feel free to reach out to Jaya Chandra at [boyajaychandra@gmail.com].
+
+## Deployment
+
+This project is set up to be deployed on GitHub Pages. To deploy:
+
+1. Ensure all your changes are committed and pushed to the main branch.
+
+2. Run the following command:
+   ```
+   npm run deploy
+   ```
+
+3. GitHub Actions will automatically build and deploy your site to the `gh-pages` branch.
+
+4. Your site will be available at: https://jay-chand-ra.github.io/virtualLibrary
+
+Note: Make sure your repository settings have GitHub Pages set to deploy from the `gh-pages` branch.
