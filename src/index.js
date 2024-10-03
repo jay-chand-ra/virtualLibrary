@@ -1,18 +1,17 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
-import { LibraryProvider } from './context/LibraryContext';
+import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const root = createRoot(document.getElementById('root'));
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <LibraryProvider>
-        <App />
-      </LibraryProvider>
-    </BrowserRouter>
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
+
+reportWebVitals();

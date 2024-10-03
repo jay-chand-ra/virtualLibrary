@@ -1,14 +1,15 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import BookDetailsPage from './pages/BookDetailsPage';
 import MyLibraryPage from './pages/MyLibraryPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { LibraryProvider } from './context/LibraryContext';
 
 function App() {
   return (
-    <Router>
+    <LibraryProvider>
       <div className="app">
         <Header />
         <main>
@@ -20,7 +21,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </LibraryProvider>
   );
 }
 
