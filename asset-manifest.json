@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/virtualLibrary/static/css/main.d05a9939.css",
+    "main.js": "/virtualLibrary/static/js/main.bc265bec.js",
+    "index.html": "/virtualLibrary/index.html",
+    "main.d05a9939.css.map": "/virtualLibrary/static/css/main.d05a9939.css.map",
+    "main.bc265bec.js.map": "/virtualLibrary/static/js/main.bc265bec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d05a9939.css",
+    "static/js/main.bc265bec.js"
+  ]
+}
