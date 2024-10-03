@@ -1,0 +1,27 @@
+.my-library-page {
+    margin-top: 30px;
+  }
+  
+  .my-library-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .my-library-page li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .my-library-page li button {
+    background-color: #dc3545;
+  }
+  
+  .my-library-page li button:hover {
+    background-color: #c82333;
+  }
+  
